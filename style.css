@@ -1,0 +1,191 @@
+/* Estilos generales */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #111;
+}
+
+/* Estilos para las secciones */
+.premium, .family, .socios {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+/* Estilos para los títulos */
+.container h2, .container h3 {
+    color: white;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.container h3 {
+    font-size: 32px;
+    padding: 1px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+}
+
+/* Estilos para el texto */
+.luego {
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    font-size: 16px;
+    max-width: 440px;
+    text-align: center;
+}
+
+/* Estilos para los botones */
+.boton, .botonSocio {
+    font-size: 14px;
+    color: white;
+    background-color: #181818;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    text-align: center;
+    cursor: pointer;
+    display: block; 
+}
+
+.boton{
+    max-width: 125px;
+}
+.botonSocio{
+    max-width: 250px;
+    margin-bottom: 16px;
+}
+.boton:hover{
+    background-color: #4e4e4e;    
+}
+.botonSocio:hover{
+    background-color: #4e4e4e;     
+}
+/* Estilo para los parrafos */
+.parrafo p{
+    color:white;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 16px;
+    max-width: 440px;
+    height: 418.15;
+    text-align: center;
+    
+}
+.advertencia p{   
+    color:white;
+    font-size: 14px;
+    text-align: center; 
+}
+.subtexto{
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.70);
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.premium article{
+    background: linear-gradient(135deg,#1ee5b8,#4384ff 48.96%,#ad00ff 94.27%);
+    margin: 0 auto;
+    margin: 24px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+
+.family article{
+    background: linear-gradient(135deg,#ffd80a,#ff521f 48.96%,#fd096b);
+    margin: 0 auto;
+    margin: 24px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.socios article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+    margin: 24px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.socios img{
+    margin-bottom: 16px;
+}
+/* estilo contenedor descuentos */
+.des_premium, .des_family{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botton_type_2 {
+    display: flex;    
+    flex-direction: column;
+    width: 550px;    
+    font-size: 13px;    
+    text-align: center;    
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+/* estilo borde descuentos */
+.botton {    
+    padding: 10px;
+    border: 1px solid #BEBEC7;    
+    border-radius: 100px;
+    color: white;    
+    text-decoration: none;
+}
+
+.botton_text {
+    position: relative;
+}
+
+.botton_text_icon {
+    height: 15px;
+    left: 360px;    
+    position: absolute;
+    top: 0px;   
+    right: 0px;
+}
+/* estilo boton porcentaje */
+.botton_text_porcent {    
+    padding: 4.2px 5px;
+    top: -4px;    
+    right: -3px;
+    border-radius: 100px;    
+    align-items: center;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);    
+    position:absolute;
+}
+
+.botton_text_porcent_family{
+    padding: 4.2px 5px;
+    top: -4px;    
+    right: -3px;
+    border-radius: 100px;    
+    align-items: center;
+    background: linear-gradient(135deg,#ffd80a,#ff521f 48.96%,#fd096b);
+    position:absolute;
+}
